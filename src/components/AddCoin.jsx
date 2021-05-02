@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import { WatchListContext } from "../context/watchListContext";
+import "../App.css"
 
 const AddCoin = () => {
   const [isActive, setIsActive] = useState(false);

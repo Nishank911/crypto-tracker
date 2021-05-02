@@ -5,8 +5,22 @@
   text-decoration: none !important;
 }
 
+.main-body {
+  padding: 0;
+}
+
 body {
-  background-color: #6ac47e;
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 ul {
@@ -19,11 +33,17 @@ ul {
 
 .coinlist-item {
   display: flex;
+  background-color: #51e1ed !important;
+  transition: transform 0.2s;
+}
+.coinlist-item:hover {
+  transform: scale(1.01);
 }
 
 .coinsummary {
   border-color: white !important;
   border-style: outset !important;
+  background-color: #120e43 !important;
 }
 
 .coin-data-category {
@@ -38,4 +58,47 @@ ul {
 
 .coin:hover .delete-icon {
   display: block;
+}
+
+.btn,
+.btn:hover,
+.btn:active {
+  font-weight: bold;
+  color: #fff !important;
+  border: 0px;
+}
+
+.dropdown-menu {
+  background-color: #120e43 !important;
+}
+.dropdown-item {
+  color: #fff !important;
+  background-color: #120e43 !important;
+  font-weight: 600 !important;
+  border: 2px white !important;
+}
+
+.coinData {
+  background-color: #120e43 !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-0 {
+  color: #e8bd0d;
+}
+
+.text-muted {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+span {
+  color: yellow;
+}
+
+.coinPrice {
+  color: #0d0d0d;
+  font-weight: 600;
 }

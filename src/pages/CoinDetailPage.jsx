@@ -72,7 +72,7 @@ const CoinDetailPage = () => {
       </div>
     );
   };
-
+  
   return renderData();
 };
 

@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import Chartjs from "chart.js";
 import { historyOptions } from "../chartConfigs/chartConfigs";
+import "../App.css";
 
 const HistoryChart = ({ data }) => {
   const chartRef = useRef();
@@ -62,7 +63,7 @@ const HistoryChart = ({ data }) => {
     }
   };
   return (
-    <div className="bg-white border mt-2 rounded p-3">
+    <div className="container coinData bg-white border mt-2 rounded p-3">
       <div>{renderPrice()}</div>
       <div>
         <canvas ref={chartRef} id="myChart" width={250} height={250}></canvas>
