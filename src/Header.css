@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
+
 * {
   padding: 0;
   margin: 0;
 }
-
 header {
   text-align: center;
   width: 100%;
@@ -19,8 +20,8 @@ header .overlay {
   height: 100%;
   padding: 50px;
   padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 120px;
+  /*padding-left: 20px;
+  padding-right: 120px;*/
   color: #fff;
   text-shadow: 1px 1px 1px #333;
   background: #f3904f; /* fallback for old browsers */
@@ -37,17 +38,20 @@ header .overlay {
 }
 
 h1 {
-  /*font-family: "Dancing Script", cursive;*/
-  font-family: "Original Surfer", cursive;
+  font-family: "Girassol", cursive;
   font-size: 80px;
   margin-bottom: 30px;
-  font-weight: 800;
+  font-weight: 500;
   color: #f7cd2e;
 }
 
 h3,
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Noto Sans HK", sans-serif;
   margin-bottom: 30px;
   font-weight: 200;
+}
+
+.text-center {
+  align-items: center;
 }
