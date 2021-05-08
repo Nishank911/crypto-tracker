@@ -16,6 +16,7 @@ const AddCoin = () => {
     "okb",
     "tezos",
     "cardano",
+    "dogecoin"
   ];
 
   const handleClick = (coin) => {
